@@ -111,7 +111,7 @@ async function editarContato(id) {
 carregarContatos();
 */
 // URL base da API — troque pelo seu backend no Render
-const API_BASE_URL = 'https://crud-api-np8r.onrender.com/api/';
+const API_BASE_URL = 'https://crud-api-np8r.onrender.com/api';
 
 const form = document.getElementById('form-contato');
 const tabela = document.getElementById('tabela-contatos');
