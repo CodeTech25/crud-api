@@ -1,6 +1,6 @@
 
 
-const API_URL = 'https://crud-api.onrender.com';
+const API_URL = 'https://crud-api.onrender.com/api/contatos';
 
 const form = document.getElementById('form-contato');
 const tabela = document.getElementById('tabela-contatos');
