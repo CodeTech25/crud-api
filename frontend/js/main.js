@@ -232,6 +232,7 @@ async function editarContato(id) {
     alert('Erro ao buscar contato para editar: ' + error.message);
   }
 }
-
+window.editarContato = editarContato;
+window.excluirContato = excluirContato;
 // Inicializar lista
 carregarContatos();
