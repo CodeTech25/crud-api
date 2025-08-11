@@ -42,6 +42,13 @@ require('dotenv').config();
 
 const app = express();
 
+const cors = require('cors');
+app.use(cors({
+  origin: ['http://localhost:3000', 'https://crud-api-ten-theta.vercel.app'],
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: true
+}));
+
 // Middleware
 app.use(cors());
 app.use(express.json());
